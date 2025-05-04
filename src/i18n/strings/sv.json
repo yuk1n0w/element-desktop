@@ -1,0 +1,63 @@
+{
+    "action": {
+        "cancel": "Avbryt",
+        "close": "Stäng",
+        "close_brand": "Stäng %(brand)s",
+        "copy": "Kopiera",
+        "cut": "Klipp ut",
+        "delete": "Radera",
+        "edit": "Ändra",
+        "minimise": "Minimera",
+        "paste": "Klistra in",
+        "paste_match_style": "Klistra in och matcha stilen",
+        "quit": "Avsluta",
+        "redo": "Gör om",
+        "select_all": "Markera allt",
+        "show_hide": "Visa/dölj",
+        "undo": "Ångra",
+        "zoom_in": "Zooma in",
+        "zoom_out": "Zooma ut"
+    },
+    "common": {
+        "about": "Om",
+        "brand_help": "%(brand)s-hjälp",
+        "help": "Hjälp",
+        "preferences": "Inställningar"
+    },
+    "confirm_quit": "Är du säker att du vill avsluta?",
+    "edit_menu": {
+        "speech": "Tal",
+        "speech_start_speaking": "Börja tala",
+        "speech_stop_speaking": "Sluta tala"
+    },
+    "file_menu": {
+        "label": "Arkiv"
+    },
+    "menu": {
+        "hide": "Göm",
+        "hide_others": "Göm övriga",
+        "services": "Tjänster",
+        "unhide": "Sluta gömma"
+    },
+    "right_click_menu": {
+        "add_to_dictionary": "Lägg till i ordlistan",
+        "copy_email": "Kopiera e-postadress",
+        "copy_image": "Kopiera bild",
+        "copy_image_url": "Kopiera bildadress",
+        "copy_link_url": "Kopiera länkadress",
+        "save_image_as": "Spara bild som…",
+        "save_image_as_error_description": "Bilden sparades inte",
+        "save_image_as_error_title": "Misslyckades med att spara bilden"
+    },
+    "view_menu": {
+        "actual_size": "Verklig storlek",
+        "toggle_developer_tools": "Växla utvecklarverktyg",
+        "toggle_full_screen": "Växla helskärm",
+        "view": "Visa"
+    },
+    "window_menu": {
+        "bring_all_to_front": "Lägg alla överst",
+        "label": "Fönster",
+        "zoom": "Zooma"
+    }
+}

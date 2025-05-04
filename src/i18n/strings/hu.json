@@ -1,0 +1,63 @@
+{
+    "action": {
+        "cancel": "Mégse",
+        "close": "Bezárás",
+        "close_brand": "Az %(brand)s bezárása",
+        "copy": "Másolás",
+        "cut": "Kivágás",
+        "delete": "Törlés",
+        "edit": "Szerkesztés",
+        "minimise": "Lecsukás",
+        "paste": "Beillesztés",
+        "paste_match_style": "Beillesztés formázással",
+        "quit": "Kilépés",
+        "redo": "Újra",
+        "select_all": "Összes kijelölése",
+        "show_hide": "Megjelenítés/elrejtés",
+        "undo": "Visszavonás",
+        "zoom_in": "Nagyítás",
+        "zoom_out": "Kicsinyítés"
+    },
+    "common": {
+        "about": "Névjegy",
+        "brand_help": "%(brand)s Súgó",
+        "help": "Súgó",
+        "preferences": "Beállítások"
+    },
+    "confirm_quit": "Biztos, hogy kilép?",
+    "edit_menu": {
+        "speech": "Beszéd",
+        "speech_start_speaking": "Kezdjen beszélni",
+        "speech_stop_speaking": "Fejezze be a beszédet"
+    },
+    "file_menu": {
+        "label": "Fájl"
+    },
+    "menu": {
+        "hide": "Elrejtés",
+        "hide_others": "Mások elrejtése",
+        "services": "Szolgáltatás",
+        "unhide": "Felfedés"
+    },
+    "right_click_menu": {
+        "add_to_dictionary": "Hozzáadás a szótárhoz",
+        "copy_email": "E-mail-cím másolása",
+        "copy_image": "Kép másolása",
+        "copy_image_url": "Kép címének másolása",
+        "copy_link_url": "Hivatkozás másolása",
+        "save_image_as": "Kép mentése másként…",
+        "save_image_as_error_description": "A kép mentése sikertelen",
+        "save_image_as_error_title": "Kép mentése sikertelen"
+    },
+    "view_menu": {
+        "actual_size": "Jelenlegi méret",
+        "toggle_developer_tools": "Fejlesztői eszközök",
+        "toggle_full_screen": "Teljes képernyő",
+        "view": "Megtekintés"
+    },
+    "window_menu": {
+        "bring_all_to_front": "Minden előtérbe hozása",
+        "label": "Ablak",
+        "zoom": "Nagyítás"
+    }
+}

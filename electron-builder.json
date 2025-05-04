@@ -1,0 +1,61 @@
+{
+  "appId": "im.riot.app",
+  "productName": "Element",
+  "executableName": "Element",
+  "directories": {
+    "output": "dist"
+  },
+  "files": [
+    "package.json",
+    {
+      "from": ".hak/hakModules",
+      "to": "node_modules"
+    },
+    "lib/**",
+    {
+      "from": "config.json",
+      "to": "config.json"
+    }
+  ],
+  "extraResources": [
+    {
+      "from": "res/img",
+      "to": "img"
+    }
+  ],
+  "asarUnpack": "**/*.node",
+  "mac": {
+    "category": "public.app-category.social-networking",
+    "darkModeSupport": true,
+    "hardenedRuntime": false,
+    "gatekeeperAssess": false,
+    "entitlements": "./build/entitlements.mac.plist",
+    "entitlementsInherit": "./build/entitlements.mac.plist",
+    "icon": "build/icons/icon.icns",
+    "mergeASARs": false,
+    "identity": null,
+    "target": ["dir"],
+    "extraResources": [
+      {
+        "from": "webapp.asar",
+        "to": "webapp.asar"
+      }
+    ],
+    "extendInfo": {
+      "CFBundleIdentifier": "im.riot.app",
+      "CFBundleExecutable": "Element",
+      "NSAppTransportSecurity": {
+        "NSAllowsArbitraryLoads": true
+      },
+      "CFBundleURLTypes": [
+        {
+          "CFBundleURLSchemes": [
+            "element"
+          ],
+          "CFBundleURLName": "Element"
+        }
+      ]
+    }
+  }
+}
+
